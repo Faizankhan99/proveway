@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>YAY! It’s BOGO</h1>
+
+      <div class="offer-box" id="offer1">
+        <input type="radio" class="radio" name="offer" id="buy1get2" />
+        <label for="buy1get2" class="offer-label">
+          <span class="offer-tag" id="tag1">
+            <p style="width:80%;"></p>  &nbsp 30% Off</p>
+          </span>
+          <input type="radio" name="offer1" style="accent-color: red;" value="1" id="radio" />
+
+          <div class="offerBox">
+            <span class="offer-text">Buy 1 Get 2 <span class="discount" id="discount1">30% Off</span></span>
+            <span class="offer-price">$18.00 USD</span>
+          </div>
+        </label>
+        <div class="details">
+          <div class="sizes">
+            <div>
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+            <div>
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-box" id="offer2">
+        <input type="radio" class="radio" name="offer" id="buy2get4" />
+        <label for="buy2get4" class="offer-label">
+          <span class="offer-tag" id="tag2">
+            <p style="width: 80%;">30% Off</p>
+          </span>
+          <input type="radio" name="offer2" value="2" style="accent-color: rgb(226, 108, 126);" id="radio2" />
+
+          <div class="offerBox">
+            <span class="offer-text">Buy 2 Get 4 <span class="discount" id="discount2">30% Off</span></span>
+            <span class="offer-price">$24.00 USD</span>
+          </div>
+          <span class="most-popular">Most Popular</span>
+        </label>
+        <div class="details">
+          <div class="sizes">
+            <div>
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+            <div>
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-box" id="offer3"  style="border:1px solid #ff5c8d">
+
+        <input type="radio" class="radio" name="offer" id="buy3get6" checked />
+        <label for="buy3get6" class="offer-label">
+          <span class="offer-tag" id="tag3" style="display:none;">
+            <p style="width:80%;"></p> &nbsp 10% Off</p>
+          </span>
+          <input type="radio" name="offer3" value="3" style="accent-color: rgb(226, 108, 126); " id="radio3" checked/>
+
+          <div class="offerBox">
+            <span class="offer-text">Buy 3 Get 6 <span class="discount" id="discount3">10% Off</span></span> 
+            <span class="offer-price">$36.00 USD <del style="color: #9F9F9F; font-size:10px;">$10.00 USD</del></span>
+          </div>
+        </label>
+        <div class="details">
+          <div class="sizes">
+            <div>
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+            <div>
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="total">
+        <p class="free-delivery">Free Delivery</p>
+        <p class="total-price">Total: $36.00 USD</p>
+      </div>
+      <button class="add-to-cart">+ Add to Cart</button>
+      <p class="powered-by"><span style="color: #9F9F9F;">Powered by </span>Pumper</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
